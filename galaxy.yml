@@ -14,9 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-namespace: alvistack
-name: kubernetes
-description: Ansible Collection for Kubernetes
+namespace: fernandomorais
+name: kubernetes_fork
+description: Ansible Collection for Kubernetes (forked from alvistack)
 
 version: VERSION
 readme: README.md
@@ -30,5 +30,8 @@ issues: https://github.com/alvistack/ansible-collection-kubernetes/issues
 dependencies: {}
 tags:
   - system
+  - kubernetes
+  - k8s
 authors:
   - "Wong Hoi Sing Edison <hswong3i@pantarei-design.com>"
+  - "Fernando de Morais <mnando@gmail.com>"
